@@ -26,12 +26,10 @@ header {
 
 }
 .empty {
-  min-height: 70px;
+  min-height: 370px;
 }
-.list {
-  float:left;
-
-}
-.list {
-  display: inline-block;
+.flex-container {
+  display: flex;
+  justify-content: center;
+  border : 2px solid #0074b1;
 }
