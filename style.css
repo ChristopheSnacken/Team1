@@ -1,0 +1,10 @@
+.standard-table {
+  border-style: solid;
+  border-width: 5px;
+}
+td {
+  border: 1pt solid #0074b1;
+}
+thead {
+  background-color: #80b6e5;
+}
