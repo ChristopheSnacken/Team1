@@ -28,3 +28,10 @@ header {
 .empty {
   min-height: 70px;
 }
+.list {
+  float:left;
+
+}
+.list {
+  display: inline-block;
+}
