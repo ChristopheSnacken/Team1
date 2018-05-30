@@ -8,3 +8,23 @@ td {
 thead {
   background-color: #80b6e5;
 }
+header {
+  position : fixed;
+  background-color: white;
+
+}
+.container img {
+  width: 10%;
+  height: auto;
+}
+.toptext {
+  min-height: 70px;
+  color: #0074b1;
+  margin-left: 200px;
+  font-size: 20px;
+  position: fixed;
+
+}
+.empty {
+  min-height: 70px;
+}
