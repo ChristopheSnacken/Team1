@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<title>Introduction to CSS</title>
 </head>
 <body>
+<h1> What is CSS? </h1>
+<p>CSS stands for Cascading StyleSheets.
+  It works in combination with HTML to provide a standardised style
+  for the website you’re creating.
+  CSS uses a cascading structure. In this context cascading means it passes a set of CSS values to each element it is assigned to and to all other elements included within that it. Like a waterfall the values you assign trickle all the way down into the river until you channelize it with a specific comment changing the way the water flows.
+  Basically you can see CSS as writing the general style rulebook
+   for how your website is going to look.
+  If set up correctly your browser automatically adopts these rules that
+    you create using CSS. You can set different properties for the HTML-elements like color theme, positioning, font style, shape etc.</p>
+
+<h1> How does it work with HTML? </h1>
+<p>
+  There’s multiple ways of applying css to your HTML file. First there’s inline css which is included within the element tags in your HTML file. Say my page has a heading, defined in HTML as &lt;h1&gt; Watch your head! &lt;/h1&gt;. If you use inline css to change the text color to blue and a margin around the element of 30px, you could write it like this: &lt;h1 style=“text-color:blue; margin:30px”&gt; Watch your head! &lt;/h1&gt;. This works when you want to just style one single specific HTML element. However if you want all of your text to be blue, you’d have to repeat the above step for every text element in your HTML.
+
+  <br>There’s also the option of using internal CSS. Using this you would add your CSS stylesheet to your HTML document by including a “&lt;style&gt;&lt;/style&gt; tag inside the head of your HTML document. By adding it to the &lt;head&gt; section you make your stylesheet applicable for all of the HTML elements in the &lt;body&gt; section. This is already more effective then inline CSS, because it applies a set of styling rules to the entire document instead of one single HTML element. However it is still not preferred because if you have a CSS stylesheet with many lines, your HTML file becomes incredibly long, large and unreadable.</br>
+
+  <br> So what is the preferred way of applying CSS to your HTML document? It’s called external CSS, where you create a separate .css file and then tell your HTML document to refer to that as the stylesheet for the website you’re creating. You do this by including this model-tag ‘ &lt;link href=“css-filename.css" rel="stylesheet" type="text/css"&gt; . ‘ The first “link href” part tells your HTML document to link up with a specific file in a specific direction, here you put the name and location of your css file. In the example above we use a relative file path to link up, meaning it’s referring to a local file inside the folder your .html file is located.  The second “rel”part tells  HTML you’re giving it a stylesheet, and finally “type” specifies the stylesheet as a CSS stylesheet.
+
+<h1> What is cascading anyway? </h1>
 
 
 
 </body>
-</html> 
+</html>
