@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<title>CSS: the box model</title>
 </head>
 <body>
+  <h1>Boxes in CSS</h1>
+  All HTML elements are basically boxes, that can be moved and altered by CSS. The box model is a way to define and design these boxes using CSS. Using the <div> tag in your HTML document you can name a certain class, which you then proceed to call in CSS. Say you have a piece of text that you want style using the box model. You first wrap it in &lt;div&gt; tags and then write &lt;div class=“text”&gt;. Now you’ve turned your piece of text into a box element. Now go to your CSS file and you can access and modify the looks of your box using CSS code.  You can now access the div class ‘text’ by writing for example:
 
+    <br>div.text {
+  background-color: yellow
+} </br>
 
+  <br>Now only the background color of the box named ‘text’ will become yellow. The background color in other boxes on your page is still whatever you defined it in the overall div {} css element.</br>
 
+  <br>Box models are a nice way of keeping all the elements separate from each other, so their styles don’t mix unintentionally. The tricky thing about CSS is the cascading function which cascades a set of styling rules throughout the entire element it is applied to. The box model allows you to isolate a certain part of your HTML webpage and style it only for that. In short it is a nice tool to keep total control over what comes where and how on your webpage. By creating different HTML classes it’s easy to call them in your CSS file using div.classname.</br>
+  <br>You can design the size of your box by using margin, padding and border. The difference between these 3 terms becomes clear in this pic <pic of padding/margin etc.!>. Each of these elements can define the size of the box in. </br>
 </body>
-</html> 
+</html>
